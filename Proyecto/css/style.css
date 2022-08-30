@@ -91,12 +91,18 @@
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
     .header {
         max-height: 235px;
     }
+    .header__logo {
+        object-fit: cover;
+        object-position: center;
+        width: 300px;
+    }
 
     .header__title {
+        margin-top: 20px;
         font-size: 25px;
     }
 
@@ -181,6 +187,7 @@
     }
 
     .header__title {
+        margin-top: 0px;
         font-size: 16px;
     }
 
@@ -212,7 +219,7 @@
     }
 
     .card__header__text {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     .card__body {
